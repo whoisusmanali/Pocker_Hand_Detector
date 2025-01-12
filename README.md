@@ -5,7 +5,6 @@
 Poker Hand Detector simplifies the understanding of poker hands for beginners worldwide. Leveraging computer vision, it accurately analyzes card arrangements. With a dataset sourced from roboflow.com featuring over 500 card images, the project ensures comprehensive coverage.
 
 ## Key Features
-
 - **State-of-the-Art Object Detection:** Powered by the YOLOv8 model, the detector achieves an impressive 98% accuracy in object detection. This state-of-the-art architecture enables precise identification of poker hands, enhancing the user experience.
   
 - **Comprehensive Dataset:** Utilizing a dataset sourced from roboflow.com, featuring over 500 card images, ensures comprehensive coverage of various card combinations and scenarios.
@@ -13,7 +12,6 @@ Poker Hand Detector simplifies the understanding of poker hands for beginners wo
 - **User-Friendly Interface:** Deployed on Flask, the Poker Hand Detector offers a user-friendly interface for seamless interaction. It enables users to effortlessly assess card combinations and determine winning probabilities, thereby facilitating informed decision-making during gameplay.
 
 ## Libraries/Dependencies Used
-
 - CV
 - CvZone
 - Ultralytics
@@ -21,7 +19,6 @@ Poker Hand Detector simplifies the understanding of poker hands for beginners wo
 - Numpy
 
 ## Project Workflow
-
 1. **Download the dataset**
 2. **Modify the data.yaml file from dataset according to needs.**
 3. **Apply the YOLOV8 from Ultralytics on the dataset (use Google Colab if GPU is not available)**
